@@ -32,8 +32,8 @@ model member{
 
 model borrowRecord{
   borrowId String @id @default(uuid())
-  borrowDate DateTime
-  returnDate DateTime
+  borrowDate DateTime? @default(now())
+  returnDate DateTime? 
   bookId String @unique
   memberId String @unique
 

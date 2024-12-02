@@ -1,0 +1,2 @@
+-- AlterTable
+ALTER TABLE "borrowRecord" ALTER COLUMN "borrowDate" SET DEFAULT CURRENT_TIMESTAMP;
